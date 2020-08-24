@@ -6,7 +6,7 @@ from urlconfig import *
 
 redditUrl = "https://reddit.com/r/kpop/search.json?q=flair:mv&sort=new"
 
-username = "Kpop News"
+username = "Solar"
 
 def main():
   r = requests.get(redditUrl,headers={'User-agent': 'Kpop-bot'})
