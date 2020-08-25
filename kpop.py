@@ -4,7 +4,7 @@ import time
 from urlconfig import *
 # Set the Webhook Url as 'webhookUrl' in urlconfig.py 
 
-redditUrl = "https://reddit.com/r/kpop/search.json?q=flair:mv&sort=new"
+redditUrl = "https://reddit.com/r/kpop/search.json?q=flair:mv&sort=new&restrict_sr=1"
 
 username = "Solar"
 
